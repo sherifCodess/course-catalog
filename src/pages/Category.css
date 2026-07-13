@@ -1,0 +1,23 @@
+.category-hero {
+  padding-top: 2.5rem;
+  max-width: 600px;
+}
+
+.category-hero__breadcrumb {
+  font-size: 0.8rem;
+  color: var(--faint);
+  margin-bottom: 0.75rem;
+}
+
+.category-hero__breadcrumb strong { color: var(--accent-ink); }
+
+.category-hero__title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.category-hero__subtitle {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
