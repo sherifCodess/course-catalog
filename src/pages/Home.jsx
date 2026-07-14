@@ -6,12 +6,15 @@ function Home() {
   return (
     <div className="page-container">
       <section className="hero">
-        <p className="hero__prompt mono">
+        <p className="hero__mono">
           <span className="hero__prompt-user">techyjaunt@catalog</span>
-          <span className="hero__prompt-sep">:~$</span> ls ./courses --level=all
+          <span className="hero__prompt-sep">:</span> lists of courses,
+          levels:all
         </p>
         <h1 className="hero__title">
-          Learn at your<br />own pace.
+          Learn at your
+          <br />
+          own pace.
         </h1>
         <p className="hero__subtitle">
           Everything from HTML basics to advanced React patterns — structured,
@@ -22,7 +25,8 @@ function Home() {
       <section className="section">
         <div className="section__header">
           <h2 className="section__title">
-            All courses <span className="section__count mono">({courses.length})</span>
+            All courses{" "}
+            <span className="section__count mono">({courses.length})</span>
           </h2>
         </div>
         <CourseGrid courses={courses} />
