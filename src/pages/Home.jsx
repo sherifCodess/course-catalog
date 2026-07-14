@@ -7,9 +7,9 @@ function Home() {
     <div className="page-container">
       <section className="hero">
         <p className="hero__mono">
-          <span className="hero__prompt-user">techyjaunt@catalog</span>
-          <span className="hero__prompt-sep">:</span> lists of courses,
-          levels:all
+          <span className="hero__prompt-user">Techyjaunt catalog</span>
+          <span className="hero__prompt-sep">:</span> lists of all courses and
+          levels
         </p>
         <h1 className="hero__title">
           Learn at your

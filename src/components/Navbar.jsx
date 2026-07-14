@@ -18,7 +18,7 @@ function Navbar() {
             <i />
           </span>
           <span className="navbar__filename">
-            techyjaunt<span className="navbar__ext">/courses.jsx</span>
+            Techyjaunt<span className="navbar__ext">courses</span>
           </span>
         </NavLink>
 
